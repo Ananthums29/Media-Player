@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div style={{height:'300px'}} className='container w-100 mt-5'>
-    <div className='footer-content d-flex justify-content-between'>
-    <div className="title w-25">
-    <h3 className='d-flex text-warning'><i className="fa-solid fa-cloud-arrow-up me-2" style={{height:'45px'}}></i>
+    <div className='footer-content d-flex justify-content-between flex-wrap'>
+    <div style={{width:'400px'}} className="title">
+    <h3 className='d-flex text-warning'>
+    <i className="fa-solid fa-cloud-arrow-up me-2" style={{height:'41px'}}></i>
     Media Player</h3>
     <span>Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.</span><br />
     <span>Code licensed MIT, docs CC BY 3.0</span><br />
